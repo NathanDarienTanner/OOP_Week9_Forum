@@ -4,8 +4,8 @@
 
 **(A)** By making use of an example from the above scenario, distinguish between a class and an instantiation of a class. (3 points)
 
-Answer = A class is a blueprint or template for creating objects that share common properties and behaviours. It defines the characteristics and behaviour of a group of objects that belong to the same category or type.
-On the other hand, an instantiation is a realization of a class, also known as an object. When a class is instantiated, a specific instance of that class is created, with its own set of properties and behaviours.
+Answer = A class is essentially a blueprint or a template that's used for creating objects which share common properties and behaviours. It defines the characteristics and behaviour of a group of objects that belong to the same category or type.
+An instantiation is a realization of a class, also known as an object. When a class is instantiated, a specific instance of that class is created, with its own set of properties and behaviours.
 
 **(B)** By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
 
@@ -13,7 +13,7 @@ Answer =
 
 Ex 1) Inheritance for Employee Hierarchy
 
-The administration program may have a hierarchy of employees, such as SalesPerson, Manager, and Clerk. These employee types share some common attributes and behaviors, such as name, ID, and salary calculation.
+The administration program may have a hierarchy of employees, such as a Sales Person, a Manager, and a Clerk. These employee types share some common attributes and behaviours with each other such as name, ID, and salary calculation.
 
 Ex 2) Inheritance for Product Categories
 
