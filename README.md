@@ -29,7 +29,7 @@ Each instance variable is initialized when a SalesPerson object is instantiated.
 
 **(A)** Complete the constructor public SalesPerson(String id), from the SalesPerson class. (2 points) ~ DONE
 
-![constructor.png](Img/Constructor.png)
+![constructor.png](images/Constructor.png)
 
 **(B)** Explain why accessor methods are necessary for the SalesPerson class. (3 points) 
 
@@ -37,7 +37,7 @@ Answer = Accessor methods are necessary to keep an object's properties (attribut
 
 **(C) (i)** Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and Sales classes. (4 points) ~ DONE
 
-![UML.png](Img/UML.png)
+![UML.png](images/UML.png)
 
 **(C) (ii)** Outline a negative effect that a future change in the design of the Sales object might have on this suite of programs. (2 points)
 
@@ -50,19 +50,19 @@ The salesPeople array contains 100 instantiated objects. The company wishes to r
 Answer = The methods getId, getCount, and calcTotalSales outputs 102, 2, and 5000.0 respectively. However, for the method getSalesHistory, it doesn't output anything as it hasn't been implemented.
 Having implemented all the methods, the driver class will output:
 
-![Output.png](Img/Output.png)
+![Output.png](images/Output.png)
 
 **(E)** Construct the method calcTotalSales(), in the SalesPerson class that calculates the total value of the sales for a specific SalesPerson object. (5 points) ~ DONE
 
-![CalcTotalSales.png](Img/CalcTotalSales.png)
+![CalcTotalSales.png](images/CalcTotalSales.png)
 
 **(F)** By making use of any previously written methods, construct the method highest(), that returns the ID of the salesperson whose sales have the largest total value. (5 points) ~ DONE
 
-![highest.png](Img/Highest.png)
+![highest.png](images/Highest.png)
 
 **(G)** Construct the method addSales(Sales s, String id), in the Driver class, that will add a new Sales object s, to the salesperson with a specified ID. (4 points) ~ DONE
 
-![addSales.png](Img/AddSales.png)
+![addSales.png](images/AddSales.png)
 
 A further class in this suite of programs is the Payroll class. This class is run at the end of each month to calculate each salesperson’s salary, which is based on the sales that have been made during that month.
 
